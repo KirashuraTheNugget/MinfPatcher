@@ -1,0 +1,16 @@
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\bin\Debug\net8.0-windows\MinfPatcher.exe
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\bin\Debug\net8.0-windows\MinfPatcher.deps.json
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\bin\Debug\net8.0-windows\MinfPatcher.runtimeconfig.json
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\bin\Debug\net8.0-windows\MinfPatcher.dll
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\bin\Debug\net8.0-windows\MinfPatcher.pdb
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\obj\Debug\net8.0-windows\MinfPatcher.Form1.resources
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\obj\Debug\net8.0-windows\MinfPatcher.csproj.GenerateResource.cache
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\obj\Debug\net8.0-windows\MinfPatcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\obj\Debug\net8.0-windows\MinfPatcher.AssemblyInfoInputs.cache
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\obj\Debug\net8.0-windows\MinfPatcher.AssemblyInfo.cs
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\obj\Debug\net8.0-windows\MinfPatcher.csproj.CoreCompileInputs.cache
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\obj\Debug\net8.0-windows\MinfPatcher.dll
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\obj\Debug\net8.0-windows\refint\MinfPatcher.dll
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\obj\Debug\net8.0-windows\MinfPatcher.pdb
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\obj\Debug\net8.0-windows\MinfPatcher.genruntimeconfig.cache
+C:\Users\kiras\Desktop\MinfPatcherPleaseForTheLoveOfGodEndMe\MinfPatcher\obj\Debug\net8.0-windows\ref\MinfPatcher.dll
