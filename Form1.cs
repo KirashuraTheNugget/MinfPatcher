@@ -6,17 +6,18 @@ namespace MinfPatcher
 {
     public partial class Form1 : Form
     {
-        private string filePath;
-        private const int offset1 = 0x4C;
-        private const int offset2 = 0x50;
-        private const int dataSize = 4;
+        string filePath;
+        int intValue;
+        const int offset1 = 0x4C;
+        const int offset2 = 0x50;
+        const int dataSize = 4;
 
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        void button1_Click(object sender, EventArgs e)
         {
             OpenFileDialog fileDialog = new OpenFileDialog()
             {
@@ -50,7 +51,7 @@ namespace MinfPatcher
             }
         }
 
-        private void UpdateTextBoxes(byte[] fileBytes)
+        void UpdateTextBoxes(byte[] fileBytes)
         {
             // Extract bytes from offset1 to offset1 + dataSize
             byte[] extractedBytes1 = new byte[dataSize];
@@ -71,27 +72,22 @@ namespace MinfPatcher
             textBox2.TextChanged += textBox2_TextChanged;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+       public void textBox1_TextChanged(object sender, EventArgs e)
         {
-            int intValue;
             if (int.TryParse(textBox1.Text, out intValue))
             {
-                byte[] bytes = BitConverter.GetBytes(intValue);
-                WriteBytesToFile(bytes, offset1);
+                byte[]bytes = BitConverter.GetBytes(intValue);
             }
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        public void textBox2_TextChanged(object sender, EventArgs e)
         {
-            int intValue;
             if (int.TryParse(textBox2.Text, out intValue))
             {
-                byte[] bytes = BitConverter.GetBytes(intValue);
-                WriteBytesToFile(bytes, offset2);
+                byte[]bytes = BitConverter.GetBytes(intValue);
             }
         }
-
-        private void WriteBytesToFile(byte[] bytes, int offset)
+        void WriteBytesToFile(byte[] bytes, int offset)
         {
             try
             {
@@ -107,9 +103,11 @@ namespace MinfPatcher
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public void button3_Click(object sender, EventArgs e)
         {
-
+            byte[] bytes = BitConverter.GetBytes(intValue);
+            WriteBytesToFile(bytes, offset2);
+            WriteBytesToFile(bytes, offset1);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿namespace MinfPatcher
+﻿
+namespace MinfPatcher
 {
     partial class Form1
     {
@@ -35,11 +36,12 @@
             textBox2 = new TextBox();
             label3 = new Label();
             label4 = new Label();
+            button3 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(307, 153);
+            button1.Location = new Point(301, 106);
             button1.Name = "button1";
             button1.Size = new Size(143, 23);
             button1.TabIndex = 0;
@@ -98,11 +100,22 @@
             label4.TabIndex = 6;
             label4.Text = "MinfPatcher, a tool created by Kirasnuggets to assist Mtninf editing 2024";
             // 
+            // button3
+            // 
+            button3.Location = new Point(301, 322);
+            button3.Name = "button3";
+            button3.Size = new Size(143, 23);
+            button3.TabIndex = 8;
+            button3.Text = "Save Mtninf";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button3);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(textBox2);
@@ -110,11 +123,13 @@
             Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(button1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Form1";
             Text = "MinfPatcher";
             ResumeLayout(false);
             PerformLayout();
         }
+
 
         #endregion
 
@@ -125,5 +140,6 @@
         private TextBox textBox2;
         private Label label3;
         private Label label4;
+        private Button button3;
     }
 }
